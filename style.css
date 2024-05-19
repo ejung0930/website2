@@ -123,11 +123,14 @@ p{
 
 }
 
-@media screen and (max-aspect-ratio:2/1.7){
+@media screen and (max-width:768px){
 	body{
 		background-size:auto 100vh;
 
-
+	}
+	img{
+		width: 100vw;
+		height: auto;
 	}
 	h2{
 		display: flex;
