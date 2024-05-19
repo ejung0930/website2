@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("back.jpeg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+	background-size:100vw auto;
+}
+header{
+	color: white;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	flex-direction:column;
+	margin:20px;
+	letter-spacing:13px;
+}
+h1{
+	padding:17px;
+	padding-left:30px;
+    border-radius: 20px; 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); 
+}
+.navbar {
+	position: fixed;
+	width: 100vw;
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.navbar a {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color:white;
+    color:gray;
+}
+
+article{
+	margin:300px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section{
+	background-color:rgba(255, 255, 255, 0.5);
+	padding:55px;
+	border-radius:15px;
+}
+h2{
+	margin:10px;
+	font-size:30px;
+	padding:10px;
+	padding-left:30px;
+    border-radius:20px; 
+    box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.8); 
+}
+h3{
+	margin:14px;
+	color: white;
+	letter-spacing:1.5px;
+
+}
+.link{
+	background-color:rgba(255, 255, 255, 0.7);
+	border-radius:7px;
+	padding:5px;
+	margin: 20px;
+	font-size: 13px;
+	text-decoration:underline;
+	text-underline-offset:4px;
+	transition:background-color 0.2s ease;
+}
+.link:hover{
+	color:grey;
+}
+a{
+	color:black;
+	transition:background-color 0.2s ease;
+}
+footer{
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+p{
+	margin: 30px;
+	word-break: keep-all;
+	letter-spacing:1.5px;
+	line-height: 1.8;
+	font-size:17.0px;
+}
+.pp{
+	background-color:rgba(255,255,255, 0.5);
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+
+}
+.list{
+	display: flex;
+	justify-content: space-between;
+	background-color:rgba(255, 255, 255, 0.7);
+	border-radius:7px;
+	padding:5px;
+	margin: 20px;
+	font-size:15px;
+	text-decoration:none;
+
+}
+
+@media screen and (max-aspect-ratio:2/1.7){
+	body{
+		background-size:auto 100vh;
+
+
+	}
+	h2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: center;
+
+	}
+	section{
+		background-color:rgba(255, 255, 255, 0.5);
+		width:500px;
+		height:1780px;
+		margin:10px;
+	}
+	.one{
+		height: 2000px;
+	}
+	iframe{
+		width:300px;
+		height:200px;
+	}
+
+}
